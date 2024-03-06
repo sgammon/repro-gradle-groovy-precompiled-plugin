@@ -1,0 +1,10 @@
+
+plugins {
+    id("org.hidetake.ssh")
+}
+
+task greeting {
+    doLast {
+        println "Hello Plugin"
+    }
+}
